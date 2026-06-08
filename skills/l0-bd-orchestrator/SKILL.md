@@ -1,6 +1,6 @@
 ---
 name: L0-bd-orchestrator
-description: KT Global BD의 모든 전문 agent(skills)를 조율하는 마스터 오케스트레이터 v2.2. 사용자가 자연어로 작업을 요청하면 적합한 agent를 추천·실행하고, 6-Layer Architecture 기반 다중 agent 워크플로우를 설계하며, 1단계 산출물들을 종합한 2단계 보고서를 작성한다. 신규 agent 검증·등록(Mode 6), 6-layer 구조 안내(Mode 7), 특정 agent 사용법(Mode 3), 전체 카탈로그(Mode 4), User Guide(Mode 5) 기능도 제공한다. "어떤 스킬 써야", "agent 추천", "워크플로우 설계", "스킬 카탈로그", "오케스트레이터", "/help", "/list", "/agent", "/run", "/workflow", "/register", "/architecture", "/layers", "/flow", "종합 보고서", "agent 검증 등록", "스킬 검증 후 등록", "SKILL.md 검증", "Layer 구조 안내", "다중 agent 조율" 등 메타 질문·신규 agent 검증/등록·architecture 안내·복수 agent 협업 요청 시 반드시 사용할 것. 사용자가 단일 명확한 agent를 직접 지정한 경우는 우회.
+description: KT Global BD의 모든 전문 agent(skills)를 조율하는 마스터 오케스트레이터 v2.5. 사용자가 자연어로 작업을 요청하면 적합한 agent를 추천·실행하고, 6-Layer Architecture 기반 다중 agent 워크플로우를 설계하며, 1단계 산출물들을 종합한 2단계 보고서를 작성한다. 신규 agent 검증·등록(Mode 6), 6-layer 구조 안내(Mode 7), 특정 agent 사용법(Mode 3), 전체 카탈로그(Mode 4), User Guide(Mode 5) 기능도 제공한다. "어떤 스킬 써야", "agent 추천", "워크플로우 설계", "스킬 카탈로그", "오케스트레이터", "/help", "/list", "/agent", "/run", "/workflow", "/register", "/architecture", "/layers", "/flow", "종합 보고서", "agent 검증 등록", "스킬 검증 후 등록", "SKILL.md 검증", "Layer 구조 안내", "다중 agent 조율" 등 메타 질문·신규 agent 검증/등록·architecture 안내·복수 agent 협업 요청 시 반드시 사용할 것. 사용자가 단일 명확한 agent를 직접 지정한 경우는 우회.
 layer: L0
 inputs_from: [user]
 outputs_to: [L0, L1, L2, L3, L4, L5, user]
