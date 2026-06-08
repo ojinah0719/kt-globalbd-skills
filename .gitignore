@@ -1,0 +1,14 @@
+# 렌더/생성 산출물 (재생성 가능)
+*.pdf
+*-[0-9].jpg
+*.tmp
+/tmp/
+# 의존성·캐시
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# 실데이터 (절대 커밋 금지) — 실제 원가·가격은 여기에
+deliverables/_private/
+*REAL*.xlsx
+*CONFIDENTIAL_DATA*
